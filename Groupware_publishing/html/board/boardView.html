@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+    <link rel="stylesheet" href="/css/board.css" />
+</head>
+
+<body>
+    <div class="ly_all">
+        <div class="bl_header el_shadowD"></div>
+        <div class="ly_body">
+            <div class="bl_nav"></div>
+            <div class="ly_cont">
+                <h4 class="el_lv1Head hp_mb30">전체 게시판</h4>
+                <section class="bl_sect hp_padding15">
+                    <table class="bl_tb3">
+                        <colgroup>
+                            <col style="width:120px" />
+                            <col style="width:*" />
+                            <col style="width:120px" />
+                            <col style="width:*" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th scope="col">게시글 번호</th>
+                                <td>1</td>
+                                <th scope="col">분류</th>
+                                <td>공지</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">작성자</th>
+                                <td>홍길동</td>
+                                <th scope="col">작성일</th>
+                                <td>2024.01.12</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">첨부파일</th>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <th scope="col">제목</th>
+                                <td colspan="3">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odio, omnis.</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">내용</th>
+                                <td colspan="3">
+                                    <div class="hp_w100 bl_sect" style="height:500px;">내용</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="hp_alignR hp_mt10">
+                        <button type="button" class="el_btnS el_btn8Bord">목록</button>
+                        <!-- 본인 글인 경우 -->
+                        <button type="button" class="el_btnS el_btnblueBord hp_ml5">수정</button>
+                    </div>
+                    <div class="bl_sect bl_comment hp_mt50">
+                        <dl class="bl_commentWrite hp_f9Back ly_flex">
+                            <dt class="bl_comment__profile" style="background-image:url('/img/sample/profile1.PNG');">
+                            </dt>
+                            <dd class="bl_comment__box ly_flex ly_fitemC ly_fgrow1 hp_ml15">
+                                <input type="text" class="hp_w100" placeholder="댓글을 입력해주세요" />
+                                <label class="ly_fshirnk"><input type="checkbox" class=""> 익명</label>
+                                <button type="button" class="el_btnS el_btnblueBack hp_ml10">등록</button>
+                            </dd>
+                        </dl>
+                        <ul class="bl_commentList">
+                            <li class="ly_flex ly_fitemC">
+                                <div class="bl_comment__profile"
+                                    style="background-image:url('/img/sample/profile1.PNG');">
+                                </div>
+                                <div class="ly_fgrow1 hp_ml15">
+                                    <div class="ly_spaceBetween">
+                                        <div class="hp_7Color"><b class="hp_0Color">홍길동</b> | 시스템팀 | 2024.12.34
+                                            00:00:00</div>
+                                        <div class="">
+                                            <button type="button" class="bl_comment__icon bl_comment__iconEdit hp_ml10"
+                                                title="수정"></button>
+                                            <button type="button" class="bl_comment__icon bl_comment__iconDelete"
+                                                title="삭제"></button>
+                                        </div>
+                                    </div>
+                                    <div class="hp_mt10">댓글<br />입니다.</div>
+                                </div>
+                            </li>
+                            <li class="ly_flex ly_fitemC">
+                                <div class="bl_comment__profile"
+                                    style="background-image:url('/img/sample/profile2.PNG');">
+                                </div>
+                                <div class="ly_fgrow1 hp_ml15">
+                                    <div class="ly_spaceBetween">
+                                        <div class="hp_7Color"><b class="hp_0Color">홍길동</b> | 시스템팀 | 2024.12.34
+                                            00:00:00</div>
+                                        <div class="">
+                                            <button type="button" class="bl_comment__icon bl_comment__iconEdit hp_ml10"
+                                                title="수정"></button>
+                                            <button type="button" class="bl_comment__icon bl_comment__iconDelete"
+                                                title="삭제"></button>
+                                        </div>
+                                    </div>
+                                    <div class="hp_mt10">댓글<br />입니다.</div>
+                                </div>
+                            </li>
+                            <li class="ly_flex ly_fitemC">
+                                <div class="bl_comment__profile"
+                                    style="background-image:url('/img/sample/profile1.PNG');">
+                                </div>
+                                <div class="ly_fgrow1 hp_ml15">
+                                    <div class="ly_spaceBetween">
+                                        <div class="hp_7Color"><b class="hp_0Color">홍길동</b> | 시스템팀 | 2024.12.34
+                                            00:00:00</div>
+                                        <div class="">
+                                            <button type="button" class="bl_comment__icon bl_comment__iconEdit hp_ml10"
+                                                title="수정"></button>
+                                            <button type="button" class="bl_comment__icon bl_comment__iconDelete"
+                                                title="삭제"></button>
+                                        </div>
+                                    </div>
+                                    <div class="hp_mt10">댓글<br />입니다.</div>
+                                </div>
+                            </li>
+                            <li class="ly_flex ly_fitemC">
+                                <div class="bl_comment__profile"
+                                    style="background-image:url('/img/sample/profile1.PNG');">
+                                </div>
+                                <div class="ly_fgrow1 hp_ml15">
+                                    <div class="ly_spaceBetween">
+                                        <div class="hp_7Color"><b class="hp_0Color">홍길동</b> | 시스템팀 | 2024.12.34
+                                            00:00:00</div>
+                                        <div class="">
+                                            <button type="button" class="bl_comment__icon bl_comment__iconEdit hp_ml10"
+                                                title="수정"></button>
+                                            <button type="button" class="bl_comment__icon bl_comment__iconDelete"
+                                                title="삭제"></button>
+                                        </div>
+                                    </div>
+                                    <div class="hp_mt10">댓글<br />입니다.</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <section class="bl_sect hp_mt10 hp_padding5 hp_alignC">
+                        <div class="bl_paging">
+                            <a class="bl_paging__btn bl_paging__first" href="" title="첫 페이지로 이동"></a>
+                            <a class="bl_paging__btn bl_paging__prev" href="" title="이전 페이지로 이동"></a>
+                            <a class="bl_paging__btn bl_paging__num" href="">1</a>
+                            <a class="bl_paging__btn bl_paging__next" href="" title="다음 페이지로 이동"></a>
+                            <a class="bl_paging__btn bl_paging__last" href="" title="마지막 페이지로 이동"></a>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

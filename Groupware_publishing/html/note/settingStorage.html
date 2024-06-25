@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+</head>
+
+<body>
+    <div class="ly_all">
+        <div class="bl_header el_shadowD"></div>
+        <div class="ly_body">
+            <div class="bl_nav"></div>
+            <div class="ly_cont">
+                <h4 class="el_lv1Head hp_mb30">보관함 관리</h4>
+                <section class="bl_sect">
+                    <table class="bl_tb2">
+                        <colgroup>
+                            <col style="width:200px" />
+                            <col style="width:*" />
+                            <col style="width:200px" />
+                            <col style="width:*" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="row">분류</th>
+                                <th scope="row">쪽지함</th>
+                                <th scope="row">상태 (안읽음/전체)</th>
+                                <th scope="row">관리</th>
+                            </tr>
+                        </thead>
+                        <tbody class="hp_alignC">
+                            <tr>
+                                <th scope="row" rowspan="2">기본 보관함</th>
+                                <td>받은 쪽지</td>
+                                <td>10/50</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btnblueBack">모두 읽음</button>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>보낸 쪽지</td>
+                                <td>0/500</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="3">개인 보관함<br />
+                                    <button type="button" class="el_btnS el_btn8Bord hp_mt5">+ 추가</button>
+                                </th>
+                                <td>
+                                    <div class="ly_flex">
+                                        <input type="text" class="hp_w100" value="중요" placeholder="보관함 이름 입력">
+                                        <button type="button" class="el_btnS el_btnblueBord hp_ml5">저장</button>
+                                        <button type="button" class="el_btnS el_btn8Bord hp_ml5">삭제</button>
+                                    </div>
+                                </td>
+                                <td>5/10</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btnblueBack">모두 읽음</button>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="ly_flex">
+                                        <input type="text" class="hp_w100" value="업무" placeholder="보관함 이름 입력">
+                                        <button type="button" class="el_btnS el_btnblueBord hp_ml5">저장</button>
+                                        <button type="button" class="el_btnS el_btn8Bord hp_ml5">삭제</button>
+                                    </div>
+                                </td>
+                                <td>1/5</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btnblueBack">모두 읽음</button>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="ly_flex">
+                                        <input type="text" class="hp_w100" value="" placeholder="보관함 이름 입력">
+                                        <button type="button" class="el_btnS el_btnblueBord hp_ml5">저장</button>
+                                        <button type="button" class="el_btnS el_btn8Bord hp_ml5">삭제</button>
+                                    </div>
+                                </td>
+                                <td>0/0</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btnblueBack">모두 읽음</button>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="3">휴지통</th>
+                                <td>휴지통</td>
+                                <td>5/1000</td>
+                                <td>
+                                    <button type="button" class="el_btnS el_btnblueBack">모두 읽음</button>
+                                    <button type="button" class="el_btnS el_btn8Back hp_ml5">비우기</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

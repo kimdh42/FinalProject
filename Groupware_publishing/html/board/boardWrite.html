@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+</head>
+
+<body>
+    <div class="ly_all">
+        <div class="bl_header el_shadowD"></div>
+        <div class="ly_body">
+            <div class="bl_nav"></div>
+            <div class="ly_cont">
+                <h4 class="el_lv1Head hp_mb30">게시판 작성하기</h4>
+                <section class="bl_sect hp_padding15">
+                    <table class="bl_tb3">
+                        <colgroup>
+                            <col style="width:120px" />
+                            <col style="width:*" />
+                            <col style="width:120px" />
+                            <col style="width:*" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th scope="col">게시판</th>
+                                <td>
+                                    <select class="hp_w100">
+                                        <option value="">선택</option>
+                                        <option value="">전체 게시판</option>
+                                        <option value="">시스템사업부 게시판</option>
+                                        <option value="">시스템팀 게시판</option>
+                                        <option value="">등산 동아리</option>
+                                        <option value="">독서 동아리</option>
+                                    </select>
+                                </td>
+                                <th scope="col">분류</th>
+                                <td>
+                                    <select class="hp_w100">
+                                        <option value="">선택</option>
+                                        <option value="">공지</option>
+                                        <option value="">질문</option>
+                                        <option value="">토론</option>
+                                        <option value="">리뷰</option>
+                                        <option value="">이벤트</option>
+                                        <option value="">자유</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">작성자</th>
+                                <td class="hp_alignL">홍길동</td>
+                                <th scope="col">작성일</th>
+                                <td class="hp_alignL">2024.01.12</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">알림</th>
+                                <td class="hp_alignL" colspan="3">
+                                    <label>
+                                        <input type="checkbox" class="" id="" name="" value="" /> 쪽지발송
+                                    </label>
+                                    <label class="hp_ml15">
+                                        <input type="checkbox" class="" id="" name="" value="" /> 알림발송
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">첨부파일</th>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <th scope="col">제목</th>
+                                <td colspan="3">
+                                    <div class="ly_spaceBetween ly_fitemC">
+                                        <input type="text" class="hp_w100" placeholder="100자 이내로 입력해주세요." />
+                                        <label class="ly_fshirnk hp_ml10">
+                                            <input type="checkbox" class="" id="" name="" value=""
+                                                style="min-height:inherit;" /> 고정글
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">내용</th>
+                                <td colspan="3">
+                                    <div class="hp_w100 bl_sect" style="height:500px;">
+                                        단순 textarea가 아닌 에디터 붙여주세요
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">설정</th>
+                                <td class="hp_alignL" colspan="3">
+                                    <label>
+                                        <input type="checkbox" class="" id="" name="" value="" /> 댓글 허용
+                                    </label>
+                                    <label class="hp_ml15">
+                                        <input type="checkbox" class="" id="" name="" value="" /> 익명 댓글 허용
+                                    </label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="hp_alignR hp_mt10">
+                        <button type="button" class="el_btnS el_btn8Back">취소</button>
+                        <button type="button" class="el_btnS el_btnblueBord hp_ml5">임시저장</button>
+                        <button type="button" class="el_btnS el_btnblueBack hp_ml5">저장</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

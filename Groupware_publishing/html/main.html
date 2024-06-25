@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <div class="ly_all">
+        <div class="bl_header el_shadowD">
+            <div class="bl_header__wrap">
+                <h1 class="bl_header__logo"><a class="" href="">GROUP<br />WARE</a></h1>
+                <ul class="bl_header__menuL">
+                    <li><a class="" href="">인사</a></li>
+                    <li><a class="" href="">결재</a></li>
+                    <li><a class="" href="">게시판</a></li>
+                    <li><a class="" href="">근태/휴가</a></li>
+                    <li><a class="" href="">일정</a></li>
+                    <li><a class="" href="">쪽지</a></li>
+                </ul>
+            </div>
+            <ul class="bl_header__menuR">
+                <li><a class="bl_header__icon bl_header__logout" href=""><span class="WA">로그아웃</span></a></li>
+                <li><a class="bl_header__icon bl_header__structure" href=""><span class="WA">조직도</span></a></li>
+                <li><a class="bl_header__icon bl_header__alarm" href=""><span class="WA">알림</span></a></li>
+                <li><a class="bl_header__icon bl_header__myinfo" href=""><span class="WA">내정보</span></a></li>
+            </ul>
+        </div>
+        <div class="ly_body">
+            <div class="ly_cont ly_flex" style="height:calc(100vh - 65px)">
+                <div class="ly_flex ly_fdirecCol hp_w400px ly_fshirnk">
+                    <section class="bl_sect hp_padding30 el_shadowD4 hp_mb30 ly_fgrow1 bl_mainProfile">
+                        <a class="bl_mainProfile__img hp_mb15" style="background-image:url('/img/sample/profile1.PNG');" href=""></a>
+                        <ul class="hp_alignC">
+                            <li class="hp_fs20 hp_fw700">홍길동</li>
+                            <li class="hp_mt20">
+                                <a class="hp_fs16" href="">쪽지함 <b class="bl_mainProfile__alarm">0</b></a>
+                                <span class="hp_ml20 hp_mr20 hp_fw700 hp_7Color">|</span>
+                                <a class="hp_fs16" href="">새업무 <b class="bl_mainProfile__alarm">10</b></a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="bl_sect hp_padding30 el_shadowD4 hp_mb30">
+                        <div class="hp_fw700">2024년 01월 23일</div>
+                        <div class="ly_spaceBetween ly_fitemC hp_mt5">
+                            <div class="hp_fw700 hp_fs28">PM 12:34:56</div>
+                            <ul class="hp_alignR">
+                                <li class=""><b class="hp_fw700 hp_mr15">출근 시간</b> 00:00:00</li>
+                                <li class=""><b class="hp_fw700 hp_mr15">퇴근 시간</b> 00:00:00</li>
+                            </ul>
+                        </div>
+                        <button type="button" class="el_btn0Back el_btnF hp_mt20 hp_fs16">출근하기</button>
+                    </section>
+                    <section class="bl_sect hp_padding30 el_shadowD4">
+                        <div class="hp_fw700">연차 사용 현황</div>
+                        <div class="hp_fw700 hp_fs28 hp_mt5">1 / 15 <span class="hp_fs16">일</span></div>
+                        <div class="hp_mt15">막대그래프 자리</div>
+                        <ul class="hp_mt15">
+                            <li class=""><b class="hp_fw700 hp_mr15">총 부여 연차</b> 15일</li>
+                            <li class=""><b class="hp_fw700 hp_mr15">총 잔여 연차</b> 13일</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="ly_fgrow1 hp_ml30">
+                    <h4 class="el_lv1Head hp_mb10">알림 <b class="bl_mainBoard__alarm hp_ml10">10</b></h4>
+                    <div class="bl_mainBoard">
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15 bl_mainBoard__read">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">시작</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                        <section class="bl_sect el_shadowD4 ly_spaceBetween ly_fitemC hp_p20-30 hp_mt15">
+                            <div class="ly_flex ly_fitemC">
+                                <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                <ul class="hp_ml20">
+                                    <li class="hp_fs16 hp_fw400"><b class="hp_fw700">홍길동</b>님이 상신한 <b class="hp_fw700">휴가신청서_홍길동</b> 결재가 <b class="hp_fw700">완료</b>되었습니다.</li>
+                                    <li class="hp_7Color hp_fs13 hp_mt5">결재 <span class="hp_ml10 hp_mr10">/</span>2024.12.23</li>
+                                </ul>
+                            </div>
+                            <div class="ly_flex ly_fitemC">
+                                <button type="button" class="el_btnS el_btn8Back hp_ml30">상세보기</button>
+                                <button type="button" class="bl_mainBoard__delete hp_ml20"></button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="hp_ml30 ly_flex ly_fdirecCol hp_w300px ly_fshirnk">
+                    <section class="bl_sect hp_padding30 el_shadowD4 hp_mb30 hp_h50">
+                        <div class="ly_spaceBetween ly_fitemC">
+                            <h5 class="hp_fw700 hp_fs18 hp_mb10">부재자</h5>
+                            <!-- 캘린더로 연결 -->
+                            <button type="button" class="hp_7Color hp_fs13">+ 더보기</button>
+                        </div>
+                        <dl class="hp_bordTEB hp_pt10">
+                            <dt class="hp_7Color">2024.05.22 (수)</dt>
+                            <!-- <dd class="hp_mt10">
+                                <p class="hp_fs24 hp_cColor hp_mt70 hp_alignC">내용 없음</p>
+                            </dd> -->
+                            <!-- 최대 4개 -->
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__1">연차</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__1">오전반차</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__1">오후반차</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__2">예비군훈련</div>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section class="bl_sect hp_padding30 el_shadowD4 hp_h50">
+                        <div class="ly_spaceBetween ly_fitemC">
+                            <h5 class="hp_fw700 hp_fs18 hp_mb10">이달의 생일자</h5>
+                            <!-- 캘린더로 연결 -->
+                            <button type="button" class="hp_7Color hp_fs13">+ 더보기</button>
+                        </div>
+                        <dl class="hp_bordTEB hp_pt10">
+                            <!-- 최대 4개 -->
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__3">5월 10일</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile2.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__3">5월 15일</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__3">5월 20일</div>
+                            </dd>
+                            <dd class="ly_spaceBetween ly_fitemC hp_mt10">
+                                <div class="ly_flex ly_fitemC">
+                                    <div class="bl_miniProfile__img" style="background-image:url('/img/sample/profile1.PNG')"></div>
+                                    <ul class="hp_ml10">
+                                        <li class="">홍길동</li>
+                                        <li class="hp_7Color hp_fs13">시스템팀</li>
+                                    </ul>
+                                </div>
+                                <div class="bl_miniLabel bl_miniLabel__3">5월 30일</div>
+                            </dd>
+                        </dl>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

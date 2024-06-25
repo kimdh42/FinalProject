@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+    <link rel="stylesheet" href="/css/schedule.css" />
+</head>
+
+<body>
+    <div class="ly_all">
+        <div class="bl_header el_shadowD"></div>
+        <div class="ly_body">
+            <div class="bl_nav"></div>
+            <div class="ly_cont">
+                <h4 class="el_lv1Head hp_mb30">라벨 관리</h4>
+                <section class="bl_sect">
+                    <table class="bl_tb2">
+                        <colgroup>
+                            <col style="width:200px" />
+                            <col style="width:*%" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>캘린더<br />
+                                    <button type="button" class="el_btnS el_btn8Bord hp_mt5">+ 추가</button>
+                                </th>
+                                <td>
+                                    <ul class="">
+                                        <li>
+                                            <a class="el_scheLabel__detail" href="">
+                                                <span class="el_scheLabel el_scheLabel__all">전체</span>
+                                                : 전사 일정
+                                            </a>
+                                        </li>
+                                        <li class="hp_mt5">
+                                            <a class="el_scheLabel__detail" href="">
+                                                <span class="el_scheLabel el_scheLabel__department">부서</span>
+                                                : 부서 일정
+                                            </a>
+                                        </li>
+                                        <li class="hp_mt5">
+                                            <a class="el_scheLabel__detail" href="">
+                                                <span class="el_scheLabel el_scheLabel__team">팀</span>
+                                                : 팀 일정
+                                            </a>
+                                        </li>
+                                        <li class="hp_mt5">
+                                            <a class="el_scheLabel__detail" href="">
+                                                <span class="el_scheLabel el_scheLabel__personal">개인</span>
+                                                : 개인 일정
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <div class="bl_popBack">
+                    <div class="bl_popup hp_w500px ">
+                        <div class="bl_popWrap">
+                            <div class="bl_popHead ly_spaceBetween ly_fitemC">
+                                <div class="hp_fs18">라벨 등록</div>
+                                <button type="button" class="bl_popup__closeBtn"></button>
+                            </div>
+                            <div class="hp_padding10">
+                                <table class="bl_tb3">
+                                    <colgroup>
+                                        <col style="width:100px" />
+                                        <col style="width:*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">제목</th>
+                                            <td><input type="text" class="hp_w100"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">설명</th>
+                                            <td><input type="text" class="hp_w100"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">색상</th>
+                                            <td><input type="text" class="hp_w100"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="hp_alignC hp_mb20 hp_mt10">
+                                <button type="button" class="el_btnM el_btnblueBack">등록</button>
+                                <!-- 수정시 -->
+                                <!-- <button type="button" class="el_btnM el_btnblueBord">수정</button> -->
+                                <!-- <button type="button" class="el_btnM el_btn8Back">삭제</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
